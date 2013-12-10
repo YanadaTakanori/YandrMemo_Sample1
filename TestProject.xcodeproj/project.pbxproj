@@ -17,12 +17,12 @@
 		1CC43A4A17799AED00BDCF90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC43A4917799AED00BDCF90 /* Default@2x.png */; };
 		1CC43A4C17799AED00BDCF90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC43A4B17799AED00BDCF90 /* Default-568h@2x.png */; };
 		1CC43A4F17799AED00BDCF90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC43A4D17799AED00BDCF90 /* MainStoryboard.storyboard */; };
-		1CC43A5217799AED00BDCF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC43A5117799AED00BDCF90 /* ViewController.m */; };
 		1CC43A5A17799AED00BDCF90 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43A5917799AED00BDCF90 /* SenTestingKit.framework */; };
 		1CC43A5B17799AED00BDCF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43A3517799AED00BDCF90 /* UIKit.framework */; };
 		1CC43A5C17799AED00BDCF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC43A3717799AED00BDCF90 /* Foundation.framework */; };
 		1CC43A6417799AED00BDCF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC43A6217799AED00BDCF90 /* InfoPlist.strings */; };
 		1CC43A6717799AED00BDCF90 /* TestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC43A6617799AED00BDCF90 /* TestProjectTests.m */; };
+		1CC43A7217799B3800BDCF90 /* Test_TVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC43A7117799B3800BDCF90 /* Test_TVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 		1CC43A4917799AED00BDCF90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CC43A4B17799AED00BDCF90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1CC43A4E17799AED00BDCF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1CC43A5017799AED00BDCF90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CC43A5117799AED00BDCF90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CC43A5817799AED00BDCF90 /* TestProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC43A5917799AED00BDCF90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1CC43A6117799AED00BDCF90 /* TestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProjectTests-Info.plist"; sourceTree = "<group>"; };
 		1CC43A6317799AED00BDCF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CC43A6517799AED00BDCF90 /* TestProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProjectTests.h; sourceTree = "<group>"; };
 		1CC43A6617799AED00BDCF90 /* TestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectTests.m; sourceTree = "<group>"; };
+		1CC43A7017799B3800BDCF90 /* Test_TVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_TVC.h; sourceTree = "<group>"; };
+		1CC43A7117799B3800BDCF90 /* Test_TVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_TVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 				1CC43A4417799AED00BDCF90 /* AppDelegate.h */,
 				1CC43A4517799AED00BDCF90 /* AppDelegate.m */,
 				1CC43A4D17799AED00BDCF90 /* MainStoryboard.storyboard */,
-				1CC43A5017799AED00BDCF90 /* ViewController.h */,
-				1CC43A5117799AED00BDCF90 /* ViewController.m */,
+				1CC43A7017799B3800BDCF90 /* Test_TVC.h */,
+				1CC43A7117799B3800BDCF90 /* Test_TVC.m */,
 				1CC43A3C17799AED00BDCF90 /* Supporting Files */,
 			);
 			path = TestProject;
@@ -272,7 +272,7 @@
 			files = (
 				1CC43A4217799AED00BDCF90 /* main.m in Sources */,
 				1CC43A4617799AED00BDCF90 /* AppDelegate.m in Sources */,
-				1CC43A5217799AED00BDCF90 /* ViewController.m in Sources */,
+				1CC43A7217799B3800BDCF90 /* Test_TVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +453,7 @@
 				1CC43A6C17799AED00BDCF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CC43A6D17799AED00BDCF90 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +462,7 @@
 				1CC43A6F17799AED00BDCF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
